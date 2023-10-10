@@ -1,0 +1,164 @@
+[
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.iden3.io/core/jsonld/iden3proofs.jsonld",
+      "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/pomicredentials.jsonld"
+    ],
+    "credentialSchema": {
+      "id": "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/pomicredentials.json",
+      "type": "JsonSchemaValidator2018"
+    },
+    "credentialStatus": {
+      "id": "http://localhost:3001/v1/did%3Apolygonid%3Apolygon%3Amumbai%3A2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9/claims/revocation/status/3262204572",
+      "revocationNonce": 3262204572,
+      "type": "SparseMerkleTreeProof"
+    },
+    "credentialSubject": {
+      "id": "did:polygonid:polygon:mumbai:2qNQwpDJGsZQKtQwtnGKgfuAUusL2YmXdGRES6CbiM",
+      "role": "superadmin",
+      "type": "PomiCredentials",
+      "username": "me@superman.com"
+    },
+    "expiration": "2030-04-25T14:29:26Z",
+    "id": "http://localhost:3001/v1/did:polygonid:polygon:mumbai:2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9/claims/1da3d820-61df-11ee-a2c4-0242ac120005",
+    "issuanceDate": "2023-10-03T11:22:19.794247707Z",
+    "issuer": "did:polygonid:polygon:mumbai:2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9",
+    "proof": [
+      {
+        "type": "BJJSignature2021",
+        "issuerData": {
+          "id": "did:polygonid:polygon:mumbai:2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9",
+          "state": {
+            "claimsTreeRoot": "aaa5757591faf8b2d1deb6afdf58fb43ffffc351659dc689fe1fb5f21e66e323",
+            "value": "e93ef616718abc2f54d5e7736ace7fcb72cd27e5a8c9026a1ce808c35dd7252e"
+          },
+          "authCoreClaim": "cca3371a6cb1b715004407e325bd993c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c6cef06fefe0ec60a131ea2457779dc15e138b9a25967aca4b439563098cf108a6a2afd5c4c8416cbbc9556548187cec40cdea01dd553d5b2c81d8dc17278110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "mtp": {
+            "existence": true,
+            "siblings": []
+          },
+          "credentialStatus": {
+            "id": "http://localhost:3001/v1/did%3Apolygonid%3Apolygon%3Amumbai%3A2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9/claims/revocation/status/0",
+            "revocationNonce": 0,
+            "type": "SparseMerkleTreeProof"
+          }
+        },
+        "coreClaim": "fc438c7e097da716bccd80f8cd0d10692a0000000000000000000000000000000212db1770d0168af0624ad98ffb3ae88d35d238eff85520a8da3c2005120e003c4eebeb35dc337694ca92be693f9a584ecaee7b87525b347e5e9bf04176450e00000000000000000000000000000000000000000000000000000000000000009c4a71c20000000046ef72710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "signature": "b508525354593fab5d35cd41d5a19c6b5750f34392aaec3345b9d13dd5eaf696afb3b492fdfdf3c1cdf933e3133e465bf86632218aa3ffc82f4726af54e3e603"
+      }
+    ],
+    "type": [
+      "VerifiableCredential",
+      "PomiCredentials"
+    ]
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.iden3.io/core/jsonld/iden3proofs.jsonld",
+      "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/pomicredentials.jsonld"
+    ],
+    "credentialSchema": {
+      "id": "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/pomicredentials.json",
+      "type": "JsonSchemaValidator2018"
+    },
+    "credentialStatus": {
+      "id": "http://localhost:3001/v1/did%3Apolygonid%3Apolygon%3Amumbai%3A2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9/claims/revocation/status/3882942610",
+      "revocationNonce": 3882942610,
+      "type": "SparseMerkleTreeProof"
+    },
+    "credentialSubject": {
+      "id": "did:polygonid:polygon:mumbai:2qJeSoZoUCMpzpr2ViAo1L4aFRpwjzPJQ676iFTxea",
+      "role": "superadmin",
+      "type": "PomiCredentials",
+      "username": "me@superman.com"
+    },
+    "expiration": "2030-04-25T14:29:26Z",
+    "id": "http://localhost:3001/v1/did:polygonid:polygon:mumbai:2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9/claims/0aa7ec7e-610e-11ee-a2c4-0242ac120005",
+    "issuanceDate": "2023-10-02T10:25:43.127786985Z",
+    "issuer": "did:polygonid:polygon:mumbai:2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9",
+    "proof": [
+      {
+        "type": "BJJSignature2021",
+        "issuerData": {
+          "id": "did:polygonid:polygon:mumbai:2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9",
+          "state": {
+            "claimsTreeRoot": "aaa5757591faf8b2d1deb6afdf58fb43ffffc351659dc689fe1fb5f21e66e323",
+            "value": "e93ef616718abc2f54d5e7736ace7fcb72cd27e5a8c9026a1ce808c35dd7252e"
+          },
+          "authCoreClaim": "cca3371a6cb1b715004407e325bd993c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c6cef06fefe0ec60a131ea2457779dc15e138b9a25967aca4b439563098cf108a6a2afd5c4c8416cbbc9556548187cec40cdea01dd553d5b2c81d8dc17278110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "mtp": {
+            "existence": true,
+            "siblings": []
+          },
+          "credentialStatus": {
+            "id": "http://localhost:3001/v1/did%3Apolygonid%3Apolygon%3Amumbai%3A2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9/claims/revocation/status/0",
+            "revocationNonce": 0,
+            "type": "SparseMerkleTreeProof"
+          }
+        },
+        "coreClaim": "fc438c7e097da716bccd80f8cd0d10692a0000000000000000000000000000000212881b6e06c4b9d0a61a64e1fea19d68d342d3eb3023d979eae8c61d4e0f007a28a292a07f5603eb916f6f7dc155ef9142ef50ac38c7a35b0591e643f8a01c0000000000000000000000000000000000000000000000000000000000000000920071e70000000046ef72710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "signature": "7316a8d239e09f5bd0589b00d41b92faf4136d94746a79ab34c8a9effd092b9ef34e33e657d64e5508347ff91f22967b309e68aad07ebe811ebb9f804f960602"
+      }
+    ],
+    "type": [
+      "VerifiableCredential",
+      "PomiCredentials"
+    ]
+  },
+  {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.iden3.io/core/jsonld/iden3proofs.jsonld",
+      "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld"
+    ],
+    "credentialSchema": {
+      "id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/KYCAgeCredential-v3.json",
+      "type": "JsonSchemaValidator2018"
+    },
+    "credentialStatus": {
+      "id": "http://localhost:3001/v1/did%3Apolygonid%3Apolygon%3Amumbai%3A2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9/claims/revocation/status/2970664204",
+      "revocationNonce": 2970664204,
+      "type": "SparseMerkleTreeProof"
+    },
+    "credentialSubject": {
+      "birthday": 19960424,
+      "documentType": 2,
+      "id": "did:polygonid:polygon:mumbai:2qJeSoZoUCMpzpr2ViAo1L4aFRpwjzPJQ676iFTxea",
+      "type": "KYCAgeCredential"
+    },
+    "expiration": "2030-04-25T14:29:26Z",
+    "id": "http://localhost:3001/v1/did:polygonid:polygon:mumbai:2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9/claims/f9bccfba-6108-11ee-a2c4-0242ac120005",
+    "issuanceDate": "2023-10-02T09:49:27.259759073Z",
+    "issuer": "did:polygonid:polygon:mumbai:2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9",
+    "proof": [
+      {
+        "type": "BJJSignature2021",
+        "issuerData": {
+          "id": "did:polygonid:polygon:mumbai:2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9",
+          "state": {
+            "claimsTreeRoot": "aaa5757591faf8b2d1deb6afdf58fb43ffffc351659dc689fe1fb5f21e66e323",
+            "value": "e93ef616718abc2f54d5e7736ace7fcb72cd27e5a8c9026a1ce808c35dd7252e"
+          },
+          "authCoreClaim": "cca3371a6cb1b715004407e325bd993c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c6cef06fefe0ec60a131ea2457779dc15e138b9a25967aca4b439563098cf108a6a2afd5c4c8416cbbc9556548187cec40cdea01dd553d5b2c81d8dc17278110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "mtp": {
+            "existence": true,
+            "siblings": []
+          },
+          "credentialStatus": {
+            "id": "http://localhost:3001/v1/did%3Apolygonid%3Apolygon%3Amumbai%3A2qJmN8doGyFtgjMkaHzHwGCkZExLocahBNtGouJWA9/claims/revocation/status/0",
+            "revocationNonce": 0,
+            "type": "SparseMerkleTreeProof"
+          }
+        },
+        "coreClaim": "c9b2370371b7fa8b3dab2a5ba81b68382a0000000000000000000000000000000212881b6e06c4b9d0a61a64e1fea19d68d342d3eb3023d979eae8c61d4e0f008dd857ca2ae17a22f0d9a0f159158f39faa4dc499599e93ad0337bc0a9df430900000000000000000000000000000000000000000000000000000000000000000cbd10b10000000046ef72710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "signature": "ae856f7d1e3fb49174da7f0480a448a6771be71a7fdb2d026167b5ba22f713a845fa3e14945ebd88007c0a5bf1e2006f6406f615d1ce71ef5c5030784d7c0003"
+      }
+    ],
+    "type": [
+      "VerifiableCredential",
+      "KYCAgeCredential"
+    ]
+  }
+]

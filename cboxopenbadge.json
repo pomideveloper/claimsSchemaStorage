@@ -1,0 +1,182 @@
+{
+	"$metadata": {
+		"type": "CBoxOpenBadge",
+		"uris": {
+			"jsonLdContext": "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/pomicredentials.jsonld"
+		},
+		"version": "1.0"
+	},
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"description": "Open badge CBox",
+	"title": "Schema describing cbox open badges",
+	"properties": {
+		"@context": {
+			"type": [
+				"string",
+				"array",
+				"object"
+			]
+		},
+		"expirationDate": {
+			"format": "date-time",
+			"type": "string"
+		},
+		"id": {
+			"type": "string"
+		},
+		"issuanceDate": {
+			"format": "date-time",
+			"type": "string"
+		},
+		"issuer": {
+			"type": [
+				"string",
+				"object"
+			],
+			"format": "uri",
+			"properties": {
+				"id": {
+					"format": "uri",
+					"type": "string"
+				}
+			},
+			"required": [
+				"id"
+			]
+		},
+		"type": {
+			"type": [
+				"string",
+				"array"
+			],
+			"items": {
+				"type": "string"
+			}
+		},
+		"credentialSubject": {
+			"description": "Stores the data of the credential",
+			"title": "Credential subject",
+			"properties": {
+				"issuedon": {
+					"description": "issued on",
+					"title": "issued on",
+					"type": "string"
+				},
+				"expires": {
+					"description": "expires",
+					"title": "expires",
+					"type": "string"
+				},
+				"learneremail": {
+					"description": "learneremail",
+					"title": "learneremail",
+					"type": "string"
+				},
+				"badgename": {
+					"description": "badgename",
+					"title": "badgename",
+					"type": "string"
+				},
+				"badgetype": {
+					"description": "badgetype",
+					"title": "badgetype",
+					"type": "string"
+				},
+				"badgedescription": {
+					"description": "badgedescription",
+					"title": "badgedescription",
+					"type": "string"
+				},
+				"credits": {
+					"description": "credits",
+					"title": "credits",
+					"type": "string"
+				},
+				"creditType": {
+					"description": "creditType",
+					"title": "creditType",
+					"type": "string"
+				},
+				"objectives": {
+					"description": "objectives",
+					"title": "objectives",
+					"type": "string"
+				},
+				"competence": {
+					"description": "competence",
+					"title": "competence",
+					"type": "string"
+				},
+				"knowledge": {
+					"description": "knowledge",
+					"title": "knowledge",
+					"type": "string"
+				},
+				"ability": {
+					"description": "ability",
+					"title": "ability",
+					"type": "string"
+				},
+				"valutation": {
+					"description": "valutation",
+					"title": "valutation",
+					"type": "string"
+				},
+				"idlevel": {
+					"description": "idlevel",
+					"title": "idlevel",
+					"type": "integer"
+				},
+				"id": {
+					"description": "Stores the DID of the subject that owns the credential",
+					"title": "Credential subject ID",
+					"format": "uri",
+					"type": "string"
+				}
+			},
+			"required": [
+				"issuedon",
+				"expires",
+				"learneremail",
+				"badgename",
+				"badgetype",
+				"badgedescription",
+				"credits",
+				"creditType",
+				"objectives",
+				"competence",
+				"knowledge",
+				"ability",
+				"valutation",
+				"idlevel"
+			],
+			"type": "object"
+		},
+		"credentialSchema": {
+			"properties": {
+				"id": {
+					"format": "uri",
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"id",
+				"type"
+			],
+			"type": "object"
+		}
+	},
+	"required": [
+		"@context",
+		"id",
+		"issuanceDate",
+		"issuer",
+		"type",
+		"credentialSubject",
+		"credentialSchema"
+	],
+	"type": "object"
+}

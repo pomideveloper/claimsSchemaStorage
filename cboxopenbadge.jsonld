@@ -1,0 +1,74 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "CBoxOpenBadge": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "cbox-vocab": "......",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "issuedon": {
+            "@id": "cbox-vocab:issuedon",
+            "@type": "xsd:string"
+          },
+          "expires": {
+            "@id": "cbox-vocab:expires",
+            "@type": "xsd:string"
+          },
+          "learneremail": {
+            "@id": "cbox-vocab:learneremail",
+            "@type": "xsd:string"
+          },
+          "badgename": {
+            "@id": "cbox-vocab:badgename",
+            "@type": "xsd:string"
+          },
+          "badgetype": {
+            "@id": "cbox-vocab:badgetype",
+            "@type": "xsd:string"
+          },
+          "badgedescription": {
+            "@id": "cbox-vocab:badgedescription",
+            "@type": "xsd:string"
+          },
+          "credits": {
+            "@id": "cbox-vocab:credits",
+            "@type": "xsd:string"
+          },
+          "creditType": {
+            "@id": "cbox-vocab:creditType",
+            "@type": "xsd:string"
+          },
+          "objectives": {
+            "@id": "cbox-vocab:objectives",
+            "@type": "xsd:string"
+          },
+          "competence": {
+            "@id": "cbox-vocab:competence",
+            "@type": "xsd:string"
+          },
+          "knowledge": {
+            "@id": "cbox-vocab:knowledge",
+            "@type": "xsd:string"
+          },
+          "ability": {
+            "@id": "cbox-vocab:ability",
+            "@type": "xsd:string"
+          },
+          "valutation": {
+            "@id": "cbox-vocab:valutation",
+            "@type": "xsd:string"
+          },
+          "idlevel": {
+            "@id": "cbox-vocab:idlevel",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
