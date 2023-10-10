@@ -2,7 +2,7 @@
 	"$metadata": {
 		"type": "CBoxOpenBadge",
 		"uris": {
-			"jsonLdContext": "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/pomicredentials.jsonld"
+			"jsonLdContext": "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/cboxopenbadge.jsonld"
 		},
 		"version": "1.0"
 	},

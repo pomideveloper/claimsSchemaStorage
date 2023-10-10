@@ -9,7 +9,7 @@
         "@context": {
           "@propagate": true,
           "@protected": true,
-          "cbox-vocab": "......",
+          "cbox-vocab": "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/cboxopenbadge-vocab.md",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "issuedon": {
             "@id": "cbox-vocab:issuedon",
