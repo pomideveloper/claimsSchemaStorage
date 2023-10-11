@@ -126,7 +126,7 @@
 					"title": "Credential Subject ID",
 					"type": "string",
 					"format": "uri"
-				}
+				},
 				"issuedon": {
 						"description": "issued on",
 						"title": "issued on",
