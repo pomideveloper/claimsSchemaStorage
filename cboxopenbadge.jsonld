@@ -1,70 +1,73 @@
 {
   "@context": [
     {
-      "@protected": true,
       "@version": 1.1,
+      "@protected": true,
       "id": "@id",
       "type": "@type",
       "CBoxOpenBadge": {
+        "@id": "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/cboxopenbadge.jsonld#CBoxOpenBadge",
         "@context": {
-          "@propagate": true,
+          "@version": 1.1,
           "@protected": true,
-          "cbox-vocab": "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/cboxopenbadge-vocab.md",
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/pomideveloper/claimsSchemaStorage/main/cboxopenbadge-vocab.md",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "issuedon": {
-            "@id": "cbox-vocab:issuedon",
+            "@id": "vocab:issuedon",
             "@type": "xsd:string"
           },
           "expires": {
-            "@id": "cbox-vocab:expires",
+            "@id": "vocab:expires",
             "@type": "xsd:string"
           },
           "learneremail": {
-            "@id": "cbox-vocab:learneremail",
+            "@id": "vocab:learneremail",
             "@type": "xsd:string"
           },
           "badgename": {
-            "@id": "cbox-vocab:badgename",
+            "@id": "vocab:badgename",
             "@type": "xsd:string"
           },
           "badgetype": {
-            "@id": "cbox-vocab:badgetype",
+            "@id": "vocab:badgetype",
             "@type": "xsd:string"
           },
           "badgedescription": {
-            "@id": "cbox-vocab:badgedescription",
+            "@id": "vocab:badgedescription",
             "@type": "xsd:string"
           },
           "credits": {
-            "@id": "cbox-vocab:credits",
+            "@id": "vocab:credits",
             "@type": "xsd:string"
           },
-          "creditType": {
-            "@id": "cbox-vocab:creditType",
+          "credittype": {
+            "@id": "vocab:credittype",
             "@type": "xsd:string"
           },
           "objectives": {
-            "@id": "cbox-vocab:objectives",
+            "@id": "vocab:objectives",
             "@type": "xsd:string"
           },
           "competence": {
-            "@id": "cbox-vocab:competence",
+            "@id": "vocab:competence",
             "@type": "xsd:string"
           },
           "knowledge": {
-            "@id": "cbox-vocab:knowledge",
+            "@id": "vocab:knowledge",
             "@type": "xsd:string"
           },
           "ability": {
-            "@id": "cbox-vocab:ability",
+            "@id": "vocab:ability",
             "@type": "xsd:string"
           },
           "valutation": {
-            "@id": "cbox-vocab:valutation",
+            "@id": "vocab:valutation",
             "@type": "xsd:string"
           },
           "idlevel": {
-            "@id": "cbox-vocab:idlevel",
+            "@id": "vocab:idlevel",
             "@type": "xsd:integer"
           }
         }

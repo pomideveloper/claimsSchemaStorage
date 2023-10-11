@@ -12,7 +12,7 @@ description of badge
 badge type
 # credits
 credits earned
-# creditType
+# credittype
 credits type
 # objectives
 objectives 
